@@ -1,6 +1,6 @@
 # Principais comandos git
 
-## Inicializar repositório
+## Inicializar repositório (apenas 1x)
 `git init`
 
 ## Adiciona o arquivo ao git (coloca na memória)
@@ -21,8 +21,9 @@
 ## Fazer clone de um repositório
 ``git clone endereço-repositório.git "https://github.com/Vinils76/exemplo-cli.git"`
 
-## Adiciona uma referência do repositório remoto no ambiente local
+## Adiciona uma referência do repositório remoto no ambiente local (apenas 1x)
 `git remote add origin endereço´repositório.gi "https://github.com/Vinils76/exemplo-cli.git"`
 
-## Fazer o push (envio) para o repositório remoto
+## Fazer o push (envio) para o repositório remoto (apenas 1x)
 `git push -u origin main`
+
